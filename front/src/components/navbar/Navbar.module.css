@@ -1,0 +1,84 @@
+.navbarContainer {
+  display: grid;
+  grid-template-columns: 20% 55% 25%;
+  align-items: center;
+  background-color: #000;
+}
+.navbarContainer img {
+  width: 20vw;
+  padding: 10px;
+}
+.navbarContainer ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+.navbarContainer ul a{
+  color: #866f40;
+  text-decoration: none;
+}
+.navbarContainer ul a:hover{
+  color: white;
+}
+.navbarContainer .nabarLinkAppointment{
+  color: #866f40;
+  border: 2px solid #866f40;
+  text-align: center;
+  text-decoration: none;
+  padding: 9px 10px;
+}
+.navbarContainer .nabarLinkAppointment:hover {
+  color: white;
+  background-color: #866f40;
+}
+.navbarContainer .loginRegisterContainer {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  justify-items: left;
+  align-items: center;
+}
+.navbarContainer .loginRegisterContainer .login {
+  color: white;
+  background-color: #866f40;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 9px 10px;
+}
+.navbarContainer .loginRegisterContainer .login:hover {
+  background-color: green;
+}
+.navbarContainer .loginRegisterContainer .register {
+  color: #866f40;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 9px 10px;
+}
+
+.navbarContainer .logoutAvatarContainer {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  justify-items: center;
+  align-items: center;
+}
+
+.navbarContainer .logoutAvatarContainer img {
+  height: 50px;
+  width: 50px;
+}
+.navbarContainer .logoutAvatarContainer button {
+  color: #866f40;
+  background-color: white;
+  /* justify-self: left; */
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 9px 10px;
+}
+.navbarContainer .logoutAvatarContainer button:hover {
+  background-color:  rgba(255, 0, 0, 0.521);
+  color: white;
+}

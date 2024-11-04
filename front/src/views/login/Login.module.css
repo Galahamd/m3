@@ -1,0 +1,45 @@
+.loginFormContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.loginFormContainer h2 {
+  color: #866f40;
+}
+
+.loginFormContainer form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: #cccccc;
+  width: 70vw;
+  padding: 10px 15px;
+  border-radius: 15px
+}
+.loginFormContainer form div {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding: 10px;
+  gap: 5px;
+  border-radius: 10px;
+}
+.loginFormContainer form div label {
+  color: white;
+  margin-bottom: 5px;
+}
+.loginFormContainer form div input {
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.loginFormContainer form div div {
+  color: rgba(255, 0, 0, 0.521);
+}
+.loginFormContainer form button {
+  align-self: center;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 10px;
+  padding: 5px; 
+}

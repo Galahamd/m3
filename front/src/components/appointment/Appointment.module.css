@@ -1,0 +1,22 @@
+.cardcontainer {
+  display: grid;
+  grid-template-columns: 25% 20% 20% 15% 20%;
+  justify-items: center;
+  align-items: center;
+  background-color: #0c0c0c4f;
+  border-radius: 10px;
+  padding: 10px 5px;
+  margin: 10px 0;
+}
+.cardcontainer p {
+  text-align: center;
+}
+.cardcontainer button {
+  padding: 5px 8px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.cardcontainer button:hover {
+  background-color: rgba(255, 0, 0, 0.521);
+  color: rgba(255, 255, 255, 0.875);
+}

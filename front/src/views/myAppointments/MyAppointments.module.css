@@ -1,0 +1,39 @@
+.appointmentContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 15px;
+}
+.appointmentContainer a {
+  align-self: flex-end;
+  text-decoration: none;
+  background-color: #866f40;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.appointmentContainer a:hover {
+  background-color: white;
+  color: #866f40;
+}
+.appointmentContainer h2 {
+  text-align: center;
+  color: #866f40 ;
+}
+.appointmentContainer section {
+  background-color: #cccccc;
+  border: 5px solid #866f40;
+  border-radius: 15px;
+}
+.appointmentContainer section div {
+  background-color: black;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.appointmentContainer section div p {
+  color: white;
+}
+.appointmentContainer section h3 {
+  text-align: center;
+  color: #866f40;
+}
